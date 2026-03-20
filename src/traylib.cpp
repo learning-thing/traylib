@@ -1,4 +1,4 @@
-#include "traylib.hpp"
+#include "include/traylib.hpp"
 #include <csignal>
 
 struct {
@@ -15,11 +15,10 @@ bool WindowShouldClose() {
 
 void CloseWindow() {
 	// Restore previous temrinal mode
-
 }
 
 void intHandler(int d) {
-
+	status.windowShouldClose = true;
 }
 
 void InitWindow(int width, int height, const char *title) {
