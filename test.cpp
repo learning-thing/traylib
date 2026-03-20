@@ -1,6 +1,7 @@
 #include "traylib.hpp"
 
 int main(int argc, char **arg) {
+	SetLogLevel(LOG_LEVEL_ERROR | LOG_LEVEL_INFO | LOG_LEVEL_WARNING);
 	InitWindow(200, 100, "Test game");
 	while (!WindowShouldClose()) {
 		BeginDrawing();
