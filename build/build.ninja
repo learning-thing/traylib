@@ -51,6 +51,20 @@ build CMakeFiles/traylib.dir/src/traylib.cpp.o: CXX_COMPILER__traylib_unscanned_
   OBJECT_FILE_DIR = CMakeFiles/traylib.dir/src
   TARGET_SUPPORT_DIR = CMakeFiles/traylib.dir
 
+build CMakeFiles/traylib.dir/src/logs.cpp.o: CXX_COMPILER__traylib_unscanned_ /home/benji/Dokumente/Programme/traylib/src/logs.cpp || cmake_object_order_depends_target_traylib
+  DEP_FILE = CMakeFiles/traylib.dir/src/logs.cpp.o.d
+  INCLUDES = -I/home/benji/Dokumente/Programme/traylib/src/include
+  OBJECT_DIR = CMakeFiles/traylib.dir
+  OBJECT_FILE_DIR = CMakeFiles/traylib.dir/src
+  TARGET_SUPPORT_DIR = CMakeFiles/traylib.dir
+
+build CMakeFiles/traylib.dir/src/keyInput.cpp.o: CXX_COMPILER__traylib_unscanned_ /home/benji/Dokumente/Programme/traylib/src/keyInput.cpp || cmake_object_order_depends_target_traylib
+  DEP_FILE = CMakeFiles/traylib.dir/src/keyInput.cpp.o.d
+  INCLUDES = -I/home/benji/Dokumente/Programme/traylib/src/include
+  OBJECT_DIR = CMakeFiles/traylib.dir
+  OBJECT_FILE_DIR = CMakeFiles/traylib.dir/src
+  TARGET_SUPPORT_DIR = CMakeFiles/traylib.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target traylib
@@ -59,7 +73,7 @@ build CMakeFiles/traylib.dir/src/traylib.cpp.o: CXX_COMPILER__traylib_unscanned_
 #############################################
 # Link the static library libtraylib.a
 
-build libtraylib.a: CXX_STATIC_LIBRARY_LINKER__traylib_ CMakeFiles/traylib.dir/src/traylib.cpp.o
+build libtraylib.a: CXX_STATIC_LIBRARY_LINKER__traylib_ CMakeFiles/traylib.dir/src/traylib.cpp.o CMakeFiles/traylib.dir/src/logs.cpp.o CMakeFiles/traylib.dir/src/keyInput.cpp.o
   OBJECT_DIR = CMakeFiles/traylib.dir
   POST_BUILD = :
   PRE_LINK = :
