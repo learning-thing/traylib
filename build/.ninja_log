@@ -1,0 +1,15 @@
+# ninja log v7
+1	49	1774027501724978905	build.ninja	a4bc81eaeeca2bf0
+1	49	1774027501724978905	/home/benji/Dokumente/Programme/traylib/build/cmake_install.cmake	a4bc81eaeeca2bf0
+1	32	1774027068863753258	CMakeFiles/tester.dir/test.cpp.o	db316fa6f54d27b7
+0	57	1774027171886600190	CMakeFiles/traylib.dir/src/traylib.cpp.o	e9cf5b82f01f0f25
+57	121	1774027171943601967	libtraylib.a	7a1f1e870f54d7a3
+1	45	1774027501724978905	build.ninja	a4bc81eaeeca2bf0
+1	45	1774027501724978905	/home/benji/Dokumente/Programme/traylib/build/cmake_install.cmake	a4bc81eaeeca2bf0
+1	53	1774027501737325572	CMakeFiles/tester.dir/test.cpp.o	db316fa6f54d27b7
+0	56	1774027501735979254	CMakeFiles/traylib.dir/src/traylib.cpp.o	e9cf5b82f01f0f25
+56	123	1774027501790980997	libtraylib.a	7a1f1e870f54d7a3
+123	206	1774027501857983121	tester	746cff153f30c090
+1	57	1774027558289773264	CMakeFiles/traylib.dir/src/traylib.cpp.o	e9cf5b82f01f0f25
+57	121	1774027558345775042	libtraylib.a	7a1f1e870f54d7a3
+121	197	1774027558409777074	tester	746cff153f30c090
