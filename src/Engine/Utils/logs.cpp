@@ -1,7 +1,6 @@
 #include "../../include/traylib.hpp"
-#include "../../include/utils.hpp"
 
-void SetLogLevel(uint8_t NewLevel) {
+void setLogLevel(uint8_t NewLevel) {
 	config.currentLogLevel = NewLevel;
 	if (NewLevel & LOG_TO_FILE) config.logToFile = true;
 }

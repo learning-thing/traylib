@@ -1,5 +1,3 @@
-#pragma once
-
 #include <bits/types/struct_timeval.h>
 
 struct input_event {

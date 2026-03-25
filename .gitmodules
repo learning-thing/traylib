@@ -1,0 +1,6 @@
+[submodule "vendored/GameNetworkingSockets"]
+	path = vendored/GameNetworkingSockets
+	url = https://github.com/ValveSoftware/GameNetworkingSockets
+[submodule "vendored/glfw"]
+	path = vendored/glfw
+	url = https://github.com/glfw/glfw

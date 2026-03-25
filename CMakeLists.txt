@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 4.2)
 project(traylib)
 
+add_subdirectory(vendored/GameNetworkingSockets)
+add_subdirectory(vendored/glfw)
+
 add_library(Engine
 	src/Engine/traylib.cpp
 	src/Engine/Utils/logs.cpp
@@ -9,6 +12,8 @@ add_library(Engine
 	src/Engine/Graphics/ui.cpp
 	src/Engine/Graphics/primitives.cpp
 )
+
+target_link_libraries(Engine GameNetworkingSockets glfw)
 
 add_executable(Editor  src/Editor/editor.cpp)
 add_executable(Runtime src/Runtime/runtime.cpp)
