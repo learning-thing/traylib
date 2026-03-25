@@ -8,6 +8,7 @@ add_library(Engine
 	src/Engine/traylib.cpp
 	src/Engine/Utils/logs.cpp
 	src/Engine/Input/keyInput.cpp
+	src/Engine/Graphics/window.cpp
 	src/Engine/Graphics/renderer.cpp
 	src/Engine/Graphics/ui.cpp
 	src/Engine/Graphics/primitives.cpp

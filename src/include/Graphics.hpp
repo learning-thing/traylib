@@ -1,5 +1,6 @@
 #pragma once
 #include <cstdint>
+#include "../../vendored/glfw/include/GLFW/glfw3.h"
 
 struct Texture;
 typedef Texture Texture2D;

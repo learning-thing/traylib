@@ -1,6 +1,6 @@
 # Libraries used
 - GLFW
 - OpenGL (glad, glm)
-- (Steam) GameNetworkingSocket
+- (Steam) GameNetworkingSockets
 - StbImage
 - Freetype

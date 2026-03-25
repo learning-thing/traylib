@@ -7,7 +7,7 @@ void setLogLevel(uint8_t NewLevel) {
 
 void appLog(const char *msg, LogLevel level) {
 	if (config.logToFile) {
-		internals.logFile << msg;
+		appWindow.logFile << msg;
 	}
 	switch (level) {
 		case LOG_LEVEL_INFO:
