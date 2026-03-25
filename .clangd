@@ -1,5 +1,4 @@
 CompileFlags:
     Add:
-        - "-Isrc/include"
         - "-pedantic"
         - "-Wall"

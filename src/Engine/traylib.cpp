@@ -1,5 +1,5 @@
-#include "include/traylib.hpp"
-#include "include/utils.hpp"
+#include "../include/traylib.hpp"
+#include "../include/utils.hpp"
 #include <csignal>
 #include <fstream>
 
